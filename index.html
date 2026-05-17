@@ -92,6 +92,14 @@
       color: var(--accent);
       font-weight: 600;
     }
+    footer a {
+      color: var(--accent-soft);
+      text-decoration: none;
+      border-bottom: 1px dashed rgba(244, 164, 122, 0.4);
+    }
+    footer a:hover {
+      border-bottom-color: var(--accent-soft);
+    }
     @media (max-width: 540px) {
       main { padding: 1.5rem; }
       h1 { font-size: 1.5rem; }
@@ -131,7 +139,8 @@
 
     <footer>
       Página abierta hace <span class="counter" id="seconds">0</span> segundos.
-      Construida con HTML + CSS plano, cero dependencias.
+      Construida con HTML + CSS plano, cero dependencias.<br />
+      <a href="https://github.com/aroaarriaza/Claude-Code-Entorno-1" target="_blank" rel="noopener">Ver código fuente en GitHub →</a>
     </footer>
   </main>
 
