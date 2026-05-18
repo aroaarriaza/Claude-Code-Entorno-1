@@ -23,3 +23,8 @@ La página de este proyecto está publicada en:
 - Un poquito de JavaScript (el contador de segundos)
 - Git y GitHub
 - GitHub Pages
+
+- ---
+
+Aroa Arriaza · Mayo 2026
+
