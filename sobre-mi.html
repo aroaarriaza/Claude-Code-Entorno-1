@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi primera sesión con Claude Code</title>
+  <title>Sobre mí · La web de Aroa</title>
   <style>
     :root {
       --bg: #0f1117;
@@ -53,37 +53,15 @@
     }
     .lede {
       color: var(--muted);
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-      margin-bottom: 2rem;
-    }
-    .tile {
-      background: rgba(255, 255, 255, 0.02);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1rem 1.25rem;
-    }
-    .tile h3 {
-      margin: 0 0 0.25rem;
-      font-size: 0.85rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      color: var(--muted);
-      font-weight: 600;
-    }
-    .tile p {
-      margin: 0;
-      font-family: "SF Mono", Menlo, Consolas, monospace;
-      font-size: 0.95rem;
-      color: var(--fg);
+    p {
+      line-height: 1.6;
     }
     footer {
       border-top: 1px solid var(--border);
       padding-top: 1.25rem;
+      margin-top: 2rem;
       color: var(--muted);
       font-size: 0.85rem;
     }
@@ -103,39 +81,33 @@
     @media (max-width: 540px) {
       main { padding: 1.5rem; }
       h1 { font-size: 1.5rem; }
-      .grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
 <body>
   <main>
-    <span class="badge">Mi primera web · Mayo 2026</span>
-    <h1>La web de Aroa</h1>
+    <p><a href="index.html">← Volver al inicio</a></p>
+
+    <span class="badge">Sobre mí</span>
+    <h1>Un poquito más sobre Aroa</h1>
+
     <p class="lede">
-      Una página de prueba que estoy usando para aprender desarrollo web
-      desde cero: HTML, CSS, Git y todo lo que vaya descubriendo por el camino.
+      Estoy dando mis primeros pasos en el mundo del desarrollo web y la programación.
     </p>
 
-    <p><a href="sobre-mi.html">Sobre mí →</a></p>
+    <p>
+      Empecé en mayo de 2026 aprendiendo lo más básico: HTML para construir
+      la estructura de una página, CSS para darle estilo, y Git con GitHub
+      para guardar mi trabajo y poder compartirlo en internet. Esta web es
+      mi cuaderno de prácticas — cada cambio que ves aquí es un paso más en
+      ese aprendizaje.
+    </p>
 
-    <div class="grid">
-      <div class="tile">
-        <h3>Nombre</h3>
-        <p>Aroa</p>
-      </div>
-      <div class="tile">
-        <h3>Ciudad</h3>
-        <p>Albacete</p>
-      </div>
-      <div class="tile">
-        <h3>Edad</h3>
-        <p>23 años</p>
-      </div>
-      <div class="tile">
-        <h3>Profesión</h3>
-        <p>Integradora Social</p>
-      </div>
-    </div>
+    <p>
+      Voy a mi ritmo, sin prisa, asegurándome de entender cada concepto
+      antes de pasar al siguiente. Lo bonito es que todo está vivo y se va
+      transformando conmigo.
+    </p>
 
     <footer>
       Página abierta hace <span class="counter" id="seconds">0</span> segundos.
